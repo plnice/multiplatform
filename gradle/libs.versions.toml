@@ -1,0 +1,10 @@
+[versions]
+# Kotlin/Android
+kotlin = "1.6.10"
+android-gradle-plugin = "7.1.0"
+
+[plugins]
+# Kotlin/Android
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+android-library = { id = "com.android.library", version.ref = "android-gradle-plugin" }
